@@ -1,2 +1,2 @@
 # CI-Caching
-It is simple caching class.
+Simple caching class.
