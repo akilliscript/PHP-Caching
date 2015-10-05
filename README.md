@@ -14,4 +14,5 @@ Other exceptions;
   - If parameters types is wrong,
 
 If you're interested in, you can access at the below link to documentation;
+
 https://github.com/gurkanbicer/CI-Caching/wiki
