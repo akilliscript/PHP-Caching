@@ -5,14 +5,14 @@ This class was made for CodeIgniter. But, you can use it any project. This class
   -	fileGet()
   -	fileSave()
 
-fileGet function is searching your file on your cache path. If exists, it will check editing time of file. If file is old, it will throw an exception and it will return false value. If not, it will return cache file content. If file not exist, it will throw an exception and it will return false value.
+fileGet function is search your file on your cache path. If exists, it will check edit time of file. If the file is old, it will make an exception and it will return false value. If isn't, it will return cache file content. If the file not exist, it will make an exception and it will return false value.
 
-fileSave function is creating cache file to your cache path. 
+fileSave function is create cache file to your cache path. 
 
 Other exceptions;
   - If cache path not writable, 
   - If parameters types is wrong,
 
-If you're interested in, you can access at the below link to documentation;
+If you're interest in, you can access at the below link to documentation;
 
 https://github.com/gurkanbicer/CI-Caching/wiki
