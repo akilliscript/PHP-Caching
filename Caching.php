@@ -6,7 +6,7 @@
  * @version 1.0
  * @license http://www.gnu.org/licenses/gpl-3.0.en.html GNU GPL 3.0
  * @since 2014-08-19
- * @link https://github.com/gurkanbicer/PHP-Caching
+ * @link https://github.com/gurkanbicer/PHP-Caching 
  */
  
     Class Caching {
