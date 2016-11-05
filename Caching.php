@@ -8,7 +8,7 @@
  * @since 2014-08-19
  * @link https://github.com/gurkanbicer/PHP-Caching 
  */
- 
+
     Class Caching {
         
         protected $cachePath;
