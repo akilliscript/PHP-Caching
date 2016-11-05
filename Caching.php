@@ -120,6 +120,18 @@
                 return false;
             }
         }
+        
+        public function delCache($key) {
+    	    $orig_key = $key;
+            $key = md5($key);
+
+            $dirs[] = substr($key, 0, 2);
+            $dirs[] = substr($key, 2, 2);
+            $dirs[] = substr($key, 4, 2);
+
+            $path = $this->cachePath . implode($dirs, '/') . '/' . $key;
+            @unlink($path);
+        }
 
     }
 
